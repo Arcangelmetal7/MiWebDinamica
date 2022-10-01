@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ACERCA DE LA APLICACION</title>
+<link rel="stylesheet" type="text/css" href="styles/style2.css">
+</head>
+<body>
+
+<header>
+		<h1>GESTOR DE PRODUCTOS PARA ALMACEN</h1>
+		<p>Aplicación web dinamica</p>
+</header>
+	<nav>
+		<ul>
+			<li><a href="developer.html"> Autor/Developer</a></li>
+			<li><a href="aplicacion.html">Acerca de la aplicación</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="ayuda.html">Ayuda</a></li>
+			<li id="volver"><form  method="get" action="miServlet">
+			<input type="hidden" name="parametro" value="mostrar">
+			<input type="submit" value="Volver" name="volver"/>
+			
+			</form></li>
+		</ul>
+	</nav>
+	<section>
+<h3>Esta aplicacion basicamente lo que hace es un CRUD con una base de datos donde estan almacenados los productos del almacen, por lo tanto podrá leer los productos en la BBDD, insertar nuevos productos, modificar datos en los productos ya cargados,como tambien eliminarlos. Todo es en base al campo clave de la tabla productos, o sea CÓDIGOARTÍCULO.</h3>	
+<h2>LENGUAJES</h2>
+<br>
+<h2>LENGUAJES Y TECNOLOGÍAS UTILIZADOS</h2>
+<br>
+<h2>PARA EL BACK-END:</h2>
+	<ul>
+			<li>Patron de arquitectura MVC.</li>
+			<li>Modelo y controlador: estan completamente programados con JEE.</li>
+			<li>El controlador es un Servlet java que pasa al modelo objetos Producto(POJO)</li>
+			<li>El modelo se maneja con consultas preparadas(PreparedStatement) y JDBC, accede a la BBDD por un pool de conexiones.</li>
+			<li>El servlet recibe un parametro desde la vista que evalúa por un condicional IF y realiza la acción correspondiente según el caso.</li>
+			
+			</ul>
+			<h2>PARA EL FRONT-END</h2>
+			<ul>
+			<li>La vista principal esta creada con HTML5 y CSS.</li>
+			<li>Algunas paginas estan hechas con JSP</li>
+			<li>Los formularios de actualizar productos usan librerias jstl(Tags)</li>
+			<li>Los formularios envian los datos al controlador(servlet) por el metodo GET </li>
+		</ul>
+		
+	</section>
+	<aside>
+		<ul>
+			<li>El mundo</li>
+			<li>Otras aplicaciones</li>
+			<li>Contactenos</li>
+			<li>Bibliografía</li>
+			<br>
+			<label for="buscador">Buscar</label>
+			<input id="buscador" type="text" placeholder="busca aqui" name="buscar"/>
+			<input id="botonBuscar" type="submit" name="enviar" value="buscar en página">
+		</ul>
+	</aside>
+		<div class="clearfix"></div>
+	<footer>
+		<p>Copyright 2022 Adrián Calderón</p>
+	</footer>
+
+
+
+
+</body>
+</html>

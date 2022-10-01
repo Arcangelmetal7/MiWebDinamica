@@ -1,0 +1,94 @@
+header{
+	background: rgba(16,56,248,.5);
+	height: 100px;
+	width: 960px;
+	color: rgb(195,195,195);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+body{
+	background: lightgray;
+	font-family: Arial;
+}
+
+nav{
+	background: rgba(3,7,188,.6);
+	height: 40px;
+	width: 1000px;
+	margin: 10px
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+#volver{
+	float: right;
+	background: gray;
+	color: white;
+	box-shadow: 0px 4px gray;
+}
+a:hover{
+	background: black;
+	color: white;
+	padding: 5px;
+	box-shadow: 0px 2px gray;
+}
+
+#app {
+	height: 500px;
+	width: 400px;
+	border: 4px solid black;
+	border-radius: 10px;
+	background: black;
+}
+
+#app form {
+	margin: 5%;
+	height: 90%;
+	width: 90%;
+	background: rgb(50,69,239);
+	border-radius: 10px;
+}
+#app input[type=textfield]{
+	width: 98%;
+	height: 60px;
+	cursor: default;
+	font-size: 30px;
+	border-radius: 10px;
+	text-align: right;
+	background-color: black;
+	color: white;
+
+	
+}
+
+#app input[type=button]{
+	height: 75px;
+	width: 24%;
+	margin: 0;
+	border-radius: 50px;
+	background: black;
+	border: 2px solid blue;
+	color: white;
+}
+#app input[type=reset]{
+	height: 75px;
+	width: 24%;
+	margin: 0;
+	border-radius: 50px;
+}
+
+#app h2{
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+	color: black;
+
+}

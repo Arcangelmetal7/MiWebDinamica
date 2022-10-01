@@ -1,0 +1,63 @@
+*{
+	margin: 0px
+}
+body{
+	background: lightgray;
+	font-family: Arial;
+}
+#container{
+	width: 1100px;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+h1{
+	background: red;
+	height: 100px;
+	width: calc(100%-20px);
+	text-align: center;
+	line-height: 100px;
+	border: 10px solid black;
+}
+header{
+	background: blue;
+	height: 50px;
+}
+header ul li{
+	float: left;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	line-height: 5px;
+}
+.clearfix{
+	clear: both;
+}
+#nota{
+	float: left;
+	width: 60%;
+	background: gray;
+	min-height: 400px;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+img{
+	width: 300px;
+	
+}
+aside{
+	float: left;
+	width: 20%;
+	background: black;
+	color: white;
+	min-height: 400px;
+}
+footer{
+	font: Arial black;
+	background: black;
+	color: red;
+	height: 50px;
+	border: 10px solid blue;
+	text-align: center;
+	line-height: 40px;
+}
